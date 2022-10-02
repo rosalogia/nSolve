@@ -1,0 +1,18 @@
+[package]
+name = "nsolve"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = { version = "2.0.0", features = ["postgres"] }
+actix-web = "4"
+serde = { version = "1.0.145", features = ["derive"] }
+serde_json = "1.0"
+env_logger = "*"
+argon2 = "0.4"
+rand_core = { version = "0.6", features = ["std"] }
+jwt = "0.16.0"
+hmac = "0.12.1"
+sha2 = "0.10.6"

@@ -1,0 +1,5 @@
+{
+    "database_url" : "postgres://user:password@localhost/nsolve",
+    "content_root" : "/folder/of/your/choice",
+    "secret": "youll-never-guess"
+}
